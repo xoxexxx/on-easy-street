@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Koulen&family=Montserrat:wght@700&family=Pacifico&family=Permanent+Marker&display=swap');
+
+
+body {
+    background-color: black;
+
+}
+.menu_ {
+    display: flex;
+    justify-content: space-around;
+}
+.menu {
+color: rgba(221, 221, 221, 0.755);
+text-decoration: none;
+font-size: 24px;
+font-family: 'Permanent Marker', cursive;
+}
+.menuz {
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Permanent Marker';
+}
+a {
+    transition-duration: 1.4s;
+}
+a:hover {
+   color: blueviolet;
+}
+.content {
+    font-family: "Koulen";
+    font-size: 150px;
+    margin-top: 15%;
+    background: url("photobg.jpg");
+    color: transparent;
+    -webkit-background-clip: text;
+    animation: bg 25s infinite linear;
+    text-align: center;
+
+}
+
+@keyframes bg {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 100%;
+    }
+}
